@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+	html {
+		font-family: "Raleway", system-ui, san-serif;
+	}
+}
+
+@layer components{
+    .hero{
+        background-image: url("./img/network.jpg");
+		background-repeat: no-repeat;
+	    min-height: 200px;
+		position: relative;
+		/* background-position: center; */
+		background-size: cover;
+		background-color: rgba(0, 0, 0, 0.6);
+		background-blend-mode: multiply;
+		z-index: -1;
+    }
+
+	.pro{
+        background-image: url("./img/izzy3.jpg");
+		background-repeat: no-repeat;
+	    min-height: 800px;
+		position: relative;
+		background-position: left;
+		background-size: cover;
+		background-color: rgba(0, 0, 0, 0.7);
+		background-blend-mode: multiply;
+		/* z-index: -1; */
+    }
+
+	.port{
+        background-image: url("./img/port1.jpg"); 
+		background-repeat: no-repeat;
+	    min-height: 500px;
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-color: rgba(0, 0, 0, 0.3);
+		background-blend-mode: multiply;
+		z-index: -1;
+    }
+
+	.active-tabs{
+		border-bottom: 4px solid #FBAD30;
+		padding-left: 32px;
+		padding-right: 32px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.tab{
+		padding-left: 32px;
+		padding-right: 32px;
+		font-weight: 500;
+
+	}
+
+	.tabs{
+		display: none;
+	}
+
+	.show-tabs{
+		display: block;
+	}
+
+	
+
+	@media screen and (max-width: 640px) {
+		.pro{
+			background-image: url("./img/izzy3.jpg");
+			background-repeat: no-repeat;
+			min-height: 400px;
+			position: relative;
+			background-position: center;
+			background-size: cover;
+			background-color: rgba(0, 0, 0, 0.6);
+			background-blend-mode: multiply;
+		}
+
+	  }
+
+    
+
+}
