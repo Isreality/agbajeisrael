@@ -74,7 +74,7 @@ const Portfolio = () => {
                         {/* Portfolio */}
                         <div className='port grid items-center'>
                             <div className="head py-24 px-32">
-                                <Fade left><h2 className="text-white text-center font-medium text-6xl">Portfolio</h2></Fade><br/>
+                                <Fade left><h2 className="text-white text-center font-medium text-5xl">Portfolio</h2></Fade><br/>
                             </div>
                         </div> 
 

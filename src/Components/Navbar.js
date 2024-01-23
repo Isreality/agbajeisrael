@@ -16,7 +16,7 @@ const Navbar = () => {
     // flex w-full basis-full sm:flex-col items-center gap-10
 
     return ( 
-        <div className="sticky top-0 w-full bg-white flex flex-wrap justify-between px-20 sm:px-20 py-4 m-0 z-50 items-center border-primary border-b-2">
+        <div className="sticky top-0 w-full bg-white flex flex-wrap justify-between px-12 sm:px-20 py-4 m-0 z-50 items-center border-primary border-b-2">
             <div className="flex justify-items-start items-center">                
                 <h1 className="m-4 font-extrabold text-primary text-2xl">Isreality</h1>
             </div>
@@ -25,7 +25,7 @@ const Navbar = () => {
                 <button onClick={()=>toggleNavbar(true)} className="text-black">{isOpen ? <MdClose/> : <RxHamburgerMenu/>}</button>
                 {isOpen &&(
                 <div>
-                    <div className="fixed h-full w-screen top-o right-0 -translate-x-0 transition-all">
+                    <div className="fixed h-full w-screen right-0 -translate-x-0 transition-all">
                         <div className="flex bg-white flex-col absolute right-0 top-0 h-screen p-8 gap-10 z-[100] w-56">
                         {NavbarData.map((nav) => (
                             <div key={nav.id}>
