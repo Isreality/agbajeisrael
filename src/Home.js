@@ -154,7 +154,7 @@ const Home = () => {
                     <div className='hero'>
                         <div className="head py-24 px-32">
                             <Fade bottom>
-                                <h2 className="text-white text-center font-medium text-3xl">The key to great ideas is not having them, it is executing them and
+                                <h2 className="text-white text-center font-medium text-2xl">The key to great ideas is not having them, it is executing them and
                                 great ideas come from problems. As designers, we call problems, <span className="text-primary">“Briefs”</span> and we call reaction to problems, <span className="text-primary">“Concept”</span></h2><br/>
                                 <p className="text-primary font-bold">- Kate Moross</p><br/><br/>
                             </Fade>

@@ -31,6 +31,10 @@ body {
 }
 
 @media screen and (max-width: 640px) {
+  .body{
+    font-family: Raleway, sans-serif;
+  }
+  
   .active{
     background-color: #FBAD30;
     color: #ffffff !important; 
