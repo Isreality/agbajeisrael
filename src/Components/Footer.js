@@ -18,9 +18,9 @@ const Footer = () => {
                 <div className="justify-items-start">
                     <h4 className="text-white text-left font-bold text-2xl mb-4">Social Media Handles</h4>
                     <div className="flex justify-start gap-5">
-                    <Link to='https:www.behance.net/agbajeisrael' target="_blank"><img src={behance} alt="" className='h-10 w-10'></img></Link>
-                    <Link to='https:www.linkedin.com/in/agbajeisrael' target="_blank"><img src={linkedin} alt="" className='h-10 w-10'></img></Link>
-                    <Link to='https:www.twitter.com/Agbaje_Israel01' target="_blank"><img src={X} alt="" className='h-10 w-10'></img></Link>
+                    <Link to='https://www.behance.net/agbajeisrael' target="_blank"><img src={behance} alt="" className='h-10 w-10'></img></Link>
+                    <Link to='https://www.linkedin.com/in/agbajeisrael' target="_blank"><img src={linkedin} alt="" className='h-10 w-10'></img></Link>
+                    <Link to='https://www.twitter.com/Agbaje_Israel01' target="_blank"><img src={X} alt="" className='h-10 w-10'></img></Link>
                     </div>                    
                 </div>
 
