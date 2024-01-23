@@ -79,7 +79,7 @@ const Portfolio = () => {
                         </div> 
 
                         {/* Back to top button */}
-                        <FaArrowUp onClick={() => handleClick()} style={{display: visible ? 'inline' : 'none'}} className="fixed bg-primary rounded-full text-3xl text-white cursor-pointer z-10 p-8 w-24 h-24 bottom-5 right-5 hover:bg-transparent hover:text-primary hover:border-primary hover:border-2"/>   
+                        <FaArrowUp onClick={() => handleClick()} style={{display: visible ? 'inline' : 'none'}} className="fixed bg-primary rounded-full text-3xl text-white cursor-pointer z-10 p-8 w-24 h-24 bottom-5 right-10 hover:bg-transparent hover:text-primary hover:border-primary hover:border-2"/>   
                         
                         {/* Tab Header */}
                         <div className="lg:px-20 py-16">
