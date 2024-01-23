@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
 import "./style.css"
 // import izzy from './img/izzy.png';
-import izzy4 from './img/izzy4.jpeg';
+import izzy2 from './img/izzy2.jpeg';
 import kazeem from './img/kazeem.jpg';
 import brand from './img/brand.svg';
 import product from './img/product.svg';
@@ -114,7 +114,7 @@ const Home = () => {
                         </div>  
 
                         <div className="grid justify-items-center"> 
-                            <Fade right><img src={izzy4} alt="" className="rounded-full h-96 w-96 object-cover"/></Fade> 
+                            <Fade right><img src={izzy2} alt="" className="rounded-lg h-full w-full object-cover"/></Fade> 
                         </div>  
                     </div>
 
