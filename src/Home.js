@@ -76,7 +76,7 @@ const Home = () => {
                             <Fade left>
                             <h2 className="text-primary font-bold text-6xl">I am Israel</h2><br/>
                             <p className="text-white sm:text-center lg:text-left text-2xl">A Brand Designer, Product Designer & Illustrator.</p><br/>
-                            <Link to='https://drive.google.com/file/d/1cl5G9EBtdFioZr-zJRm3DIBsetjUU5TQ/view?usp=sharing' target="_blank" className="bg-primary py-4 px-16 text-white rounded-full hover:bg-transparent hover:text-white hover:border-2 border-white">View Resume</Link>
+                            <Link to='https://drive.google.com/file/d/1cl5G9EBtdFioZr-zJRm3DIBsetjUU5TQ/view?usp=sharing' target="_blank" className="bg-primary py-4 px-8 text-white rounded-full hover:bg-transparent hover:text-white hover:border-2 border-white">View Resume</Link>
                             </Fade>
                         </div>
                     </div>
