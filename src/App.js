@@ -1,7 +1,4 @@
-// import { lazy, Suspense } from 'react';
 import './App.css';
-// import Navbar from './Components/Navbar';
-// import Footer from './Components/Footer';
 import Home from './Home';
 import Portfolio from './Portfolio';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
@@ -10,8 +7,6 @@ import HashLoader from "react-spinners/HashLoader";
 import "./style.css";
 import "./index.css";
 
-// const Home = lazy(() => import('./Home'));
-// const Portfolio = lazy(() => import('./Portfolio'));
 
 function App() {
 const [loading, setLoading] = useState(false)
@@ -31,20 +26,17 @@ useEffect(() => {
               <HashLoader
                  color={'#FBAD30'}
                  loading={loading}
-                 // cssOverride={override}
                  size={100}
                  aria-label="Loading Spinner"
                  data-testid="loader"
              /> 
             </div>) : (
           <Router>
-            {/* <Suspense fallback = {<div className='content'>Loading...</div>}> */}
                 <Routes>
                     <Route index path="/" Component={Home}></Route>
                     <Route exact path="/Home" Component={Home}></Route>
                     <Route path="/Portfolio" Component={Portfolio}></Route>
                 </Routes>
-            {/* </Suspense> */}
           </Router>)
 
         }
