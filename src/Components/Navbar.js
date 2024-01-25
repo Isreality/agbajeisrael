@@ -17,7 +17,7 @@ const Navbar = () => {
     // flex w-full basis-full sm:flex-col items-center gap-10
 
     return ( 
-        <div className="sticky top-0 w-full bg-white flex flex-wrap justify-between px-20  py-4 m-0 z-50 items-center border-primary border-b-2">
+        <div className="sticky top-0 w-full bg-white flex flex-wrap justify-between px-20 py-4 m-0 z-50 items-center border-primary border-b-2">
             <div className="flex justify-items-start items-center">                
                 <h1 className="mb-4 mt-4 font-extrabold text-primary text-2xl">Isreality</h1>
                 {/* <img src={logo} alt="" className="h-16 w-16 mb-4"/> */}
