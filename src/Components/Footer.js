@@ -8,7 +8,7 @@ import X from '../img/X.svg';
 const Footer = () => {
     return ( 
         <>
-            <div className="bg-black grid sm:grid-cols-1 lg:grid-cols-3 py-16 px-20 gap-10">
+            <div className="bg-black grid sm:grid-cols-1 lg:grid-cols-3 py-16 px-16 gap-10">
                 <div className="grid justify-items-start">
                     <h4 className="text-white text-left font-bold text-2xl mb-4">Interested to work on a project?</h4>
                     <h4 className="text-white text-left font-bold text-2xl mb-4"> Let us work together</h4>
