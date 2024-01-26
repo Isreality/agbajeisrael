@@ -2,6 +2,7 @@ import { useState } from "react";
 import NavbarData from "../Components/NavbarData";
 import "../style.css"
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import "../index.css"
 // import logo from '../img/logo.png';
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -19,8 +20,7 @@ const Navbar = () => {
     return ( 
         <div className="sticky top-0 w-full bg-white flex flex-wrap justify-between px-20 py-4 m-0 z-50 items-center border-primary border-b-2">
             <div className="flex justify-items-start items-center">                
-                <h1 className="mb-4 mt-4 font-extrabold text-primary text-2xl">Isreality</h1>
-                {/* <img src={logo} alt="" className="h-16 w-16 mb-4"/> */}
+            <Link to='/Home' ><h1 className="mb-4 mt-4 font-extrabold text-primary text-2xl">Isreality</h1></Link>
             </div>
 
             <div className="md:hidden">    
