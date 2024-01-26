@@ -124,9 +124,9 @@ const Home = () => {
                             <Fade left><Head header="What I Do"/></Fade>
                             <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
                                 <Zoom clear>
-                                    <Services image={product} header="Product Design" text="Focus on creating visually appealing interfaces that elevate user engagement and delivers a seamless user experience."/>
-                                    <Services image={brand} header="Brand Design" text="Specialize in developing branding strategies that resonate with your target audience. Let's create a visual identity that tells your unique story."/>
-                                    <Services image={ill} header="Illustration" text="I leverage my artistic skills to add a compelling visual layer to your project. Let's create visuals that captivate and communicate."/>
+                                    <Services image={product} header="Product Design" text="Focus on creating visually appealing interfaces that delights users through wireframing, prototyping, and user testing to deliver a seamless user experience."/>
+                                    <Services image={brand} header="Graphic Design" text="Design unique logos and graphics that reflect the essence of your brand, ensuring it maintains a visually appealing image across all digital touchpoints."/>
+                                    <Services image={ill} header="Illustration" text="Leverage my artistic skills to add a compelling visual layer to your project. Let's create visuals that captivate and communicate."/>
                                 </Zoom>
                             </div>
                             
@@ -166,7 +166,7 @@ const Home = () => {
                     <div className="py-12 sm:px-28 lg:px-20 gap-10 bg-white">
                         <div className="justify-center">
                             <Fade bottom><Head header="Testimonials"/></Fade>
-                            <div className="grid lg:grid-cols-2 sm:grid-cols-2 gap-5">
+                            <div className="grid lg:grid-cols-1 sm:grid-cols-2 gap-5">
                                 <Zoom clear>
                                     <Testimonial image={kazeem} name="Ashaluwala Kazeem" role="Mobile Developer, Frontend Labs" text='"I had the pleasure of working with Israel on more than 3 projects. His proficiency in design is truly remarkable,
                                     showcasing not only technical expertise but also a keen aesthetic eye. Each collaboration with him was a seamless experience, consistently
@@ -176,9 +176,9 @@ const Home = () => {
                                     showcasing not only technical expertise but also a keen aesthetic eye. Each collaboration with him was a seamless experience, consistently
                                     delivering visually stunning and user-friendly interfaces. I highly recommend his services to anyone seeking a talented and reliable UI/UX professional"'/> */}
                                         
-                                    <Testimonial name="Ogunsiji Damilare" role="CEO, Ogdams Technologies" text='"I had the pleasure of working with Israel on more than 3 projects. His proficiency in design is truly remarkable,
+                                    {/* <Testimonial name="Ogunsiji Damilare" role="CEO, Ogdams Technologies" text='"I had the pleasure of working with Israel on more than 3 projects. His proficiency in design is truly remarkable,
                                     showcasing not only technical expertise but also a keen aesthetic eye. Each collaboration with him was a seamless experience, consistently
-                                    delivering visually stunning and user-friendly interfaces. I highly recommend his services to anyone seeking a talented and reliable UI/UX professional"'/>
+                                    delivering visually stunning and user-friendly interfaces. I highly recommend his services to anyone seeking a talented and reliable UI/UX professional"'/> */}
                                     
                                     {/* <Testimonial name="Ogunsiji Damilare" role="CEO, Ogdams Technologies" text='"I had the pleasure of working with Israel on more than 3 projects. His proficiency in design is truly remarkable,
                                     showcasing not only technical expertise but also a keen aesthetic eye. Each collaboration with him was a seamless experience, consistently

@@ -85,7 +85,7 @@ const Portfolio = () => {
                         <div className="lg:px-20 py-16">
                             <div className="grid grid-cols-3 border-b-2 border-fade py-0 lg:px-32 items-center gap-0 cursor-pointer">           
                                 <h2 className= {`${toggle === 1 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(1)}>Product Design</h2>                
-                                <h2 className={`${toggle === 2 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(2)}>Brand Design</h2>
+                                <h2 className={`${toggle === 2 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(2)}>Graphic Design</h2>
                                 <h2 className={`${toggle === 3 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(3)}>Illustration</h2>
                             </div><br/><br/> 
                             
