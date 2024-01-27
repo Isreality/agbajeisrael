@@ -108,7 +108,7 @@ const Home = () => {
                         <div className="grid sm:justify-items-center lg:justify-items-start">
                             <Fade left>
                                 <Head header="About Me"/>
-                                <p className="lg:text-justify sm:text-left text-black text-xl mb-8">I am a highly creative and detail-oriented Brand Designer, Product Designer & Illustrator with years of experience in developing captivating visual identities and designing user-centric products.</p>
+                                <p className="lg:text-justify sm:text-left text-black text-xl mb-8">I am a highly creative and detail-oriented Graphic Designer, Product Designer & Illustrator with years of experience in developing captivating visual identities and designing user-centric products.</p>
                                 <p className="lg:text-justify sm:text-left text-black text-xl mb-8">A problem solver with a passion for innovation and can collaborate with cross-functional teams to deliver exceptional design solutions using deep understanding of design principles.</p>
                             </Fade>
                         </div>  
