@@ -10,6 +10,7 @@ import a2c from './img/a2c.jpg'
 import trixmed from './img/trixmed.jpg'
 import livestock from './img/livestock.jpg'
 import goodness from './img/goodness.jpg'
+import foodie from './img/foodie.png'
 import Card from './Components/Card';
 import { Link } from "react-router-dom";
 import Navbar from './Components/Navbar';
@@ -94,7 +95,7 @@ const Portfolio = () => {
                             
                             {/* Product Design */}
                             <div className= {toggle === 1 ? 'show-tabs' : 'tabs'}>
-                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
+                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-1">
                                     <Zoom clear>
                                         <Card header="Airtime to Cash" btn="Live" image={a2c} text="Fintech" link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
                                         <Card header="Clator" btn="Live" image={clator} text="Edtech" link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
