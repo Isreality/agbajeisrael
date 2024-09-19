@@ -95,7 +95,7 @@ const Portfolio = () => {
                             
                             {/* Product Design */}
                             <div className= {toggle === 1 ? 'show-tabs' : 'tabs'}>
-                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10 mb-2">
+                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10 mb-1">
                                     <Zoom clear>
                                         <Card header="Airtime to Cash" btn="Live" image={a2c} text="Fintech" link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
                                         <Card header="Clator" btn="Live" image={clator} text="Edtech" link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
@@ -111,17 +111,18 @@ const Portfolio = () => {
                                     </Zoom>
                                 </div>
 
-                                <div className="flex sm:flex-col md:flex-row gap-2">
+                                <div className="flex sm:flex-col md:flex-row gap-4">
                                     <Zoom clear>
                                         <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
                                         <Card header="Livestock" btn="In progress" image={livestock} text="Animal | Health " link={'#'}/><br/>  
                                     </Zoom>
                                 </div><br/>
 
-                                <div className="flex sm:flex-col md:flex-row gap-2">
+                                <div className="flex sm:flex-col md:flex-row gap-4">
                                     <Zoom clear>
-                                    <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
-                                    <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/> 
+                                        <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
+                                        <div></div>
+                                    {/* <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/>  */}
                                     </Zoom>
                                 </div><br/><br/>     
   
