@@ -7,6 +7,9 @@ import ankra from './img/ankra.png';
 import clator from './img/clator.jpg';
 import teamify from './img/teamify.png'
 import a2c from './img/a2c.jpg'
+import trixmed from './img/trixmed.jpg'
+import livestock from './img/livestock.jpg'
+import goodness from './img/goodness.jpg'
 import Card from './Components/Card';
 import { Link } from "react-router-dom";
 import Navbar from './Components/Navbar';
@@ -97,6 +100,9 @@ const Portfolio = () => {
                                         <Card header="Clator" btn="Live" image={clator} text="Edtech" link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
                                         <Card header="Teamify" btn="Case Study" image={teamify} text="Admin Dashboard" link={'https://www.behance.net/gallery/176343673/Teamify'}/>
                                         <Card header="Ankra" btn="Case Study" image={ankra} text="Fashion | E-commerce " link={'https://www.behance.net/gallery/158520391/Ankra-Case-Study'}/><br/>
+                                        <Card header="Trixmed Transportation" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
+                                        <Card header="Livestock" btn="In progress" image={livestock} text="Livestock | Health " link={'#'}/><br/>
+                                        <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
                                         {/* <Card header="Foodies" image={foodie} text="Food App" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/>
                                         <Card header="G11" image={g11} text="Edtech" link={'https://www.behance.net/gallery/174205365/G11-Schools'}/>
                                         <Card header="ichat" image={ichat} text="Social Media" link={'https://www.behance.net/gallery/152349783/i-chat-App'}/>
