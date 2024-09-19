@@ -107,15 +107,15 @@ const Portfolio = () => {
                                         {/* <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
                                         <Card header="Livestock" btn="In progress" image={livestock} text="Animal | Health " link={'#'}/><br/>
                                         <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/> */}
-                                        <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/>
+                                        {/* <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/>
                                         <Card header="G11" image={g11} text="Edtech" link={'https://www.behance.net/gallery/174205365/G11-Schools'}/>
                                         <Card header="ichat" image={ichat} text="Social Media" link={'https://www.behance.net/gallery/152349783/i-chat-App'}/>
-                                        <Card header="Carz" image={car} text="Automobile" link={'https://mir-s3-cdn-cf.behance.net/projects/808/23fb76151923401.Y3JvcCw5NDYsNzQwLDQ5LDA.jpg'}/>
+                                        <Card header="Carz" image={car} text="Automobile" link={'https://mir-s3-cdn-cf.behance.net/projects/808/23fb76151923401.Y3JvcCw5NDYsNzQwLDQ5LDA.jpg'}/> */}
                                     </Zoom>
                                 </div>
 
                                 {/* <div className="flex sm:flex-col md:flex-row gap-5"> */}
-                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-5">
+                                <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-10">
                                     <Zoom clear>
                                         <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transport " link={'https://www.trixmedtransportation.com/'}/><br/>
                                         <Card header="Livestock" btn="In progress" image={livestock} text="Animal | Health " link={'#'}/><br/>  
