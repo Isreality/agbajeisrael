@@ -114,8 +114,8 @@ const Portfolio = () => {
                                     </Zoom>
                                 </div>
 
-                                <div className="flex sm:flex-col md:flex-row gap-5">
-                                {/* <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10"> */}
+                                {/* <div className="flex sm:flex-col md:flex-row gap-5"> */}
+                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
                                     <Zoom clear>
                                         <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transport " link={'https://www.trixmedtransportation.com/'}/><br/>
                                         <Card header="Livestock" btn="In progress" image={livestock} text="Animal | Health " link={'#'}/><br/>  
