@@ -111,8 +111,8 @@ const Portfolio = () => {
                                     </Zoom>
                                 </div>
 
-                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8">
-                                    <Zoom clear>
+                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
+                                    {/* <Zoom clear> */}
                                         {/* <Card header="Airtime to Cash" btn="Live" image={a2c} text="Fintech" link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
                                         <Card header="Clator" btn="Live" image={clator} text="Edtech" link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
                                         <Card header="Teamify" btn="Case Study" image={teamify} text="Admin Dashboard" link={'https://www.behance.net/gallery/176343673/Teamify'}/>
@@ -121,7 +121,7 @@ const Portfolio = () => {
                                         <Card header="Livestock" btn="In progress" image={livestock} text="Animal | Health " link={'#'}/><br/>
                                         <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
                                         <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/>
-                                    </Zoom>
+                                    {/* </Zoom> */}
                                 </div><br/>
                                 
                                 <Bounce clear>
