@@ -111,17 +111,19 @@ const Portfolio = () => {
                                     </Zoom>
                                 </div>
 
-                                <div className="flex sm:flex-col md:flex-row gap-4">
+                                <div className="flex sm:flex-col md:flex-row gap-5">
                                     <Zoom clear>
                                         <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
                                         <Card header="Livestock" btn="In progress" image={livestock} text="Animal | Health " link={'#'}/><br/>  
                                     </Zoom>
                                 </div><br/>
 
-                                <div className="flex sm:flex-col md:flex-row gap-4">
+                                <div className="flex sm:flex-col md:flex-row gap-5">
                                     <Zoom clear>
-                                        <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
-                                        <div></div>
+                                        <div>
+                                            <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
+                                        </div>
+                                        <div className=""></div>
                                     {/* <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/>  */}
                                     </Zoom>
                                 </div><br/><br/>     
