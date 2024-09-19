@@ -76,7 +76,7 @@ const Home = () => {
                             <Fade left>
                             <h2 className="text-primary font-bold text-6xl">I am Israel</h2><br/>
                             <p className="text-white sm:text-center lg:text-left text-2xl">A Graphic Designer, Product Designer & Illustrator.</p><br/>
-                            <Link to='https://drive.google.com/file/d/1cl5G9EBtdFioZr-zJRm3DIBsetjUU5TQ/view?usp=sharing' target="_blank" className="bg-primary py-4 px-8 text-white rounded-full hover:bg-transparent hover:text-white hover:border-2 border-white">View Resume</Link>
+                            <Link to='https://drive.google.com/file/d/1angQWC2zL_3h0B711whiC123vfJ9E4PZ/view?usp=drive_link' target="_blank" className="bg-primary py-4 px-8 text-white rounded-full hover:bg-transparent hover:text-white hover:border-2 border-white">View Resume</Link>
                             </Fade>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ const Home = () => {
                     {/* Stat */}
                     <div className="grid items-center sm:grid-cols-3 lg:grid-cols-3 py-12 px-32 lg:gap-10 sm:gap-5 bg-black text-white text-center">
                         <div className="">
-                            <h2 className="text-7xl text-primary font-bold mb-2"><CountUp start={0} end={7} duration={8}/></h2>
+                            <h2 className="text-7xl text-primary font-bold mb-2"><CountUp start={0} end={5} duration={8}/>+</h2>
                             <p className="text-2xl mb-8">Years Experience</p>
                         </div>
 
