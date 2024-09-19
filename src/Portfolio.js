@@ -11,6 +11,9 @@ import trixmed from './img/trixmed.jpg'
 import livestock from './img/livestock.jpg'
 import goodness from './img/goodness.jpg'
 import foodie from './img/foodie.png'
+import g11 from './img/g11.jpg'
+import ichat from './img/ichat.jpg'
+import car from './img/car.jpg'
 import Card from './Components/Card';
 import { Link } from "react-router-dom";
 import Navbar from './Components/Navbar';
@@ -95,7 +98,7 @@ const Portfolio = () => {
                             
                             {/* Product Design */}
                             <div className= {toggle === 1 ? 'show-tabs' : 'tabs'}>
-                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10 mb-1">
+                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
                                     <Zoom clear>
                                         <Card header="Airtime to Cash" btn="Live" image={a2c} text="Fintech" link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
                                         <Card header="Clator" btn="Live" image={clator} text="Edtech" link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
@@ -103,11 +106,11 @@ const Portfolio = () => {
                                         <Card header="Ankra" btn="Case Study" image={ankra} text="Fashion | E-commerce " link={'https://www.behance.net/gallery/158520391/Ankra-Case-Study'}/><br/>
                                         {/* <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
                                         <Card header="Livestock" btn="In progress" image={livestock} text="Animal | Health " link={'#'}/><br/>
-                                        <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
-                                        <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/> */}
-                                        {/*<Card header="G11" image={g11} text="Edtech" link={'https://www.behance.net/gallery/174205365/G11-Schools'}/>
+                                        <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/> */}
+                                        <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/>
+                                        <Card header="G11" image={g11} text="Edtech" link={'https://www.behance.net/gallery/174205365/G11-Schools'}/>
                                         <Card header="ichat" image={ichat} text="Social Media" link={'https://www.behance.net/gallery/152349783/i-chat-App'}/>
-                                        <Card header="Carz" image={car} text="Automobile" link={'https://mir-s3-cdn-cf.behance.net/projects/808/23fb76151923401.Y3JvcCw5NDYsNzQwLDQ5LDA.jpg'}/> */}
+                                        <Card header="Carz" image={car} text="Automobile" link={'https://mir-s3-cdn-cf.behance.net/projects/808/23fb76151923401.Y3JvcCw5NDYsNzQwLDQ5LDA.jpg'}/>
                                     </Zoom>
                                 </div>
 
