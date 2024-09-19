@@ -98,9 +98,9 @@ const Portfolio = () => {
                                     <Zoom clear>
                                         <Card header="Airtime to Cash" btn="Live" image={a2c} text="Fintech" link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
                                         <Card header="Clator" btn="Live" image={clator} text="Edtech" link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
-                                        <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
                                         <Card header="Teamify" btn="Case Study" image={teamify} text="Admin Dashboard" link={'https://www.behance.net/gallery/176343673/Teamify'}/>
                                         <Card header="Ankra" btn="Case Study" image={ankra} text="Fashion | E-commerce " link={'https://www.behance.net/gallery/158520391/Ankra-Case-Study'}/><br/>
+                                        <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
                                         <Card header="Livestock" btn="In progress" image={livestock} text="Animal | Health " link={'#'}/><br/>
                                         <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
                                         {/* <Card header="Foodies" image={foodie} text="Food App" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/>
@@ -110,22 +110,6 @@ const Portfolio = () => {
                                     </Zoom>
                                 </div>
                                 
-                                {/* <div className="">
-                                    <div className="flex sm:flex-col md:flex-row gap-2">
-                                        <Zoom clear>
-                                            <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
-                                            <Card header="Livestock" btn="In progress" image={livestock} text="Animal | Health " link={'#'}/><br/>
-                                        </Zoom>
-                                    </div>
-
-                                    <div className="flex sm:flex-col md:flex-row gap-2">
-                                        <Zoom clear>
-                                            <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
-                                        </Zoom>
-                                    </div>
-                                </div> */}
-                                
-
                                 <Bounce clear>
                                     <Link to='https://www.behance.net/agbajeisrael' target="_blank" className="animate-bounce bg-primary py-4 px-16 justify-items-start ml-0 text-white rounded-full hover:bg-white hover:text-primary hover:border-2 border-primary">View More</Link> 
                                 </Bounce> 
