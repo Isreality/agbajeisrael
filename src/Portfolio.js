@@ -95,7 +95,7 @@ const Portfolio = () => {
                             
                             {/* Product Design */}
                             <div className= {toggle === 1 ? 'show-tabs' : 'tabs'}>
-                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
+                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10 mb-2">
                                     <Zoom clear>
                                         <Card header="Airtime to Cash" btn="Live" image={a2c} text="Fintech" link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
                                         <Card header="Clator" btn="Live" image={clator} text="Edtech" link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
@@ -109,9 +109,9 @@ const Portfolio = () => {
                                         <Card header="ichat" image={ichat} text="Social Media" link={'https://www.behance.net/gallery/152349783/i-chat-App'}/>
                                         <Card header="Carz" image={car} text="Automobile" link={'https://mir-s3-cdn-cf.behance.net/projects/808/23fb76151923401.Y3JvcCw5NDYsNzQwLDQ5LDA.jpg'}/> */}
                                     </Zoom>
-                                </div><br/>
+                                </div>
 
-                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
+                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8">
                                     <Zoom clear>
                                         {/* <Card header="Airtime to Cash" btn="Live" image={a2c} text="Fintech" link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
                                         <Card header="Clator" btn="Live" image={clator} text="Edtech" link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
