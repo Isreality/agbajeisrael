@@ -19,12 +19,12 @@ const Navbar = () => {
 
     return ( 
         <div className="sticky top-0 w-full bg-white flex flex-wrap justify-between px-20 py-4 m-0 z-50 items-center border-primary border-b-2">
-            <div className="flex justify-items-start items-center">                
+            <div className="flex justify-start items-center">                
             <Link to='/Home' ><h1 className="mb-4 mt-4 font-extrabold text-primary text-2xl">Isreality</h1></Link>
             </div>
 
             <div className="md:hidden">    
-                <button onClick={()=>toggleNavbar(true)} className="text-black">{isOpen ? <MdClose/> : <RxHamburgerMenu/>}</button>
+                <button onClick={()=>toggleNavbar(true)} className="text-black">{isOpen ? <MdClose/> : <RxHamburgerMenu className="text-black font-bold absolute top-10 size-5 mr-4 right-4"/>}</button>
                 {isOpen &&(
                 <div>
                     <div className="fixed h-full w-screen right-0 -translate-x-0 transition-all">

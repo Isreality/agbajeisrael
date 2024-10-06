@@ -19,10 +19,9 @@ import { Link } from "react-router-dom";
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import { FaArrowUp } from "react-icons/fa";
-import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom';
-import Bounce from 'react-reveal/Bounce';
-
+import { Fade } from 'react-awesome-reveal';
+import Zoom from 'react-awesome-reveal';
+import Bounce from 'react-awesome-reveal';
 
 const Portfolio = () => {
     const [toggle, setToggle] = useState(1)
@@ -81,7 +80,7 @@ const Portfolio = () => {
                         {/* Portfolio */}
                         <div className='port grid items-center'>
                             <div className="head py-24 px-20">
-                                <Fade left><h2 className="text-white text-center font-medium text-4xl">Portfolio</h2></Fade><br/>
+                                <Fade direction="left" triggerOnce="true"><h2 className="text-white text-center font-medium text-4xl">Portfolio</h2></Fade><br/>
                             </div>
                         </div> 
 
@@ -89,8 +88,8 @@ const Portfolio = () => {
                         <FaArrowUp onClick={() => handleClick()} style={{display: visible ? 'inline' : 'none'}} className="fixed bg-primary rounded-full text-3xl text-white cursor-pointer z-10 p-8 w-24 h-24 bottom-5 right-5 hover:bg-transparent hover:text-primary hover:border-primary hover:border-2"/>   
                         
                         {/* Tab Header */}
-                        <div className="lg:px-20 py-16">
-                            <div className="grid grid-cols-3 border-b-2 border-fade py-0 lg:px-32 items-center gap-0 cursor-pointer">           
+                        <div className="lg:px-20 py-16 bg-black">
+                            <div className="grid grid-cols-3 border-b-2 text-white border-fade py-0 lg:px-32 items-center gap-0 cursor-pointer">           
                                 <h2 className= {`${toggle === 1 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(1)}>Product Design</h2>                
                                 <h2 className={`${toggle === 2 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(2)}>Graphic Design</h2>
                                 <h2 className={`${toggle === 3 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(3)}>Illustration</h2>
@@ -99,7 +98,7 @@ const Portfolio = () => {
                             {/* Product Design */}
                             <div className= {toggle === 1 ? 'show-tabs' : 'tabs'}>
                                 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
-                                    <Zoom clear>
+                                    <Fade triggerOnce="true">
                                         <Card header="Airtime to Cash" btn="Live" image={a2c} text="Fintech" link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
                                         <Card header="Clator" btn="Live" image={clator} text="Edtech" link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
                                         <Card header="Teamify" btn="Case Study" image={teamify} text="Admin Dashboard" link={'https://www.behance.net/gallery/176343673/Teamify'}/>
@@ -111,16 +110,16 @@ const Portfolio = () => {
                                         <Card header="G11" image={g11} text="Edtech" link={'https://www.behance.net/gallery/174205365/G11-Schools'}/>
                                         <Card header="ichat" image={ichat} text="Social Media" link={'https://www.behance.net/gallery/152349783/i-chat-App'}/>
                                         <Card header="Carz" image={car} text="Automobile" link={'https://mir-s3-cdn-cf.behance.net/projects/808/23fb76151923401.Y3JvcCw5NDYsNzQwLDQ5LDA.jpg'}/> */}
-                                    </Zoom>
+                                    </Fade>
                                 </div>
 
                                 {/* <div className="flex sm:flex-col md:flex-row gap-5"> */}
                                 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
-                                    <Zoom clear>
+                                    <Fade triggerOnce="true">
                                         <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transport " link={'https://www.trixmedtransportation.com/'}/><br/>
                                         <Card header="Livestock" btn="In progress" image={livestock} text="Animal | Health " link={'#'}/><br/>  
                                         {/* <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/> */}
-                                    </Zoom>
+                                    </Fade>
                                 </div><br/><br/> 
 
                                 {/* <div className="flex sm:flex-col md:flex-row gap-5">
@@ -132,9 +131,9 @@ const Portfolio = () => {
                                     </Zoom>
                                 </div><br/><br/>      */}
   
-                                <Bounce clear>
+                                <Fade direction="down" triggerOnce="true">
                                     <Link to='https://www.behance.net/agbajeisrael' target="_blank" className="animate-bounce bg-primary py-4 px-16 justify-items-start ml-0 text-white rounded-full hover:bg-white hover:text-primary hover:border-2 border-primary">View More</Link> 
-                                </Bounce> 
+                                </Fade> 
                             </div>
                             
                             {/* Brand */}
