@@ -4,6 +4,9 @@ import "./style.css"
 // import izzy from './img/izzy.png';
 import izzy2 from './img/izzy2.jpeg';
 import kazeem from './img/kazeem.jpg';
+import woman from './img/woman.png';
+import phone from './img/phone.png';
+import email from './img/email.png';
 import dark from './img/dark.jpg';
 import brand from './img/brand.svg';
 import product from './img/product.svg';
@@ -203,6 +206,31 @@ const Home = () => {
                                 </Fade>
                             </div>
                             
+                        </div>
+                    </div>
+
+                    {/* Contact */}
+                    <div className="grid justify-items-left items-center grid-cols-1 md:grid-cols-2 py-20 px-8 md:px-20 gap-20 bg-black bg-no-repeat bg-cover object-cover" >
+                        <div className="grid justify-items-center"> 
+                            <Fade direction="left" triggerOnce="true"><img src={woman} alt="" className="rounded-lg h-full w-full object-cover"/></Fade> 
+                        </div>
+
+                        <div className="flex flex-col gap-5 text-white text-left">
+                            <div className="bg-shade flex flex-row gap-2 md:gap-5 px-4 md:px-8 py-16 rounded-md items-center">
+                                <img src={phone} alt="" className="h-12 w-12 md:w-20 md:h-20"/>
+                                <div className="">
+                                    <h2 className="text-xl md:text-3xl text-primary font-bold mb-2">Phone</h2>
+                                    <p className="text-sm md:text-lg">+2348140082953</p>
+                                </div>  
+                            </div>
+
+                            <div className="bg-shade flex flex-row gap-2 md:gap-5 px-4 md:px-8 py-16 rounded-md items-center">
+                                <img src={email} alt="" className="h-12 w-12 md:w-20 md:h-20"/>
+                                <div className="">
+                                    <h2 className="text-xl md:text-3xl text-primary font-bold mb-2">Email</h2>
+                                    <p className="text-sm md:text-lg">isrealitycreations@gmail.com</p>
+                                </div>  
+                            </div>
                         </div>
                     </div>
                     
