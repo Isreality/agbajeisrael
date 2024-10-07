@@ -17,6 +17,7 @@ import car from './img/car.jpg'
 import Card from './Components/Card';
 import { Link } from "react-router-dom";
 import Navbar from './Components/Navbar';
+import Header from './Components/Header';
 import Footer from './Components/Footer';
 import { FaArrowUp } from "react-icons/fa";
 import { Fade } from 'react-awesome-reveal';
@@ -76,13 +77,25 @@ const Portfolio = () => {
                     </div>) : (
 
                     <div className=""> 
-                    <Navbar/>          
+                    {/* <Navbar/>           */}
                         {/* Portfolio */}
-                        <div className='port grid items-center'>
+                        {/* <div className='port grid items-center'>
                             <div className="head py-24 px-20">
                                 <Fade direction="left" triggerOnce="true"><h2 className="text-white text-center font-medium text-4xl">Portfolio</h2></Fade><br/>
                             </div>
-                        </div> 
+                        </div>  */}
+
+                        <div className="port py-4 md:py-8">
+                            <div className="flex flex-col px-20 gap-40 md:gap-40">
+                                <div className="grid justify-items-center"><Header/></div>
+                            {/* <Header className=""/> */}
+                                {/* <div className="flex flex-col items-center lg:items-start py-0 gap-0"> */}
+                                    <Fade direction="left" triggerOnce="true">
+                                    <h2 className="text-white text-center font-medium text-4xl">Portfolio</h2><br/>
+                                    </Fade>
+                                {/* </div> */}
+                            </div>
+                        </div>
 
                         {/* Back to top button */}
                         <FaArrowUp onClick={() => handleClick()} style={{display: visible ? 'inline' : 'none'}} className="fixed bg-primary rounded-full text-3xl text-white cursor-pointer z-10 p-8 w-24 h-24 bottom-5 right-5 hover:bg-transparent hover:text-primary hover:border-primary hover:border-2"/>   
@@ -99,7 +112,7 @@ const Portfolio = () => {
                             <div className= {toggle === 1 ? 'show-tabs' : 'tabs'}>
                                 <div className="flex flex-col gap-2 md:gap-10">
                                     <Fade direction="up" triggerOnce="true">
-                                        <Card header="Airtime to Cash" btn="Live" image={a2c} text="Your one-stop financial assistant! Our app provides seamless airtime to cash conversion, allowing you to easily transfer your mobile airtime to your Nigerian bank account." link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
+                                        <Card header="Airtime to Cash" btn="Live" image={a2c} text="An app that provides seamless airtime to cash conversion, allowing users to easily transfer mobile airtime to their Nigerian bank account." link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
                                         <Card header="Clator" btn="Live" image={clator} text="A Grade Point Calculator app for all universities, polytechnics, and colleges that use the 4.0 and 5.0 CGPA scale systems." link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
                                         <Card header="Teamify" btn="Case Study" image={teamify} text="A web-based dashboard which serves as a centralized platform that enables team leaders, managers, and stakeholders to efficiently monitor, analyze, and optimize team performance, tasks, and collaboration in real-time" link={'https://www.behance.net/gallery/176343673/Teamify'}/>
                                         <Card header="Ankra" btn="Case Study" image={ankra} text="A website that allows customers to find tailors within their vicinity, book appointments with them, choose the design they desire from the site or anywhere else and get it delivered to their doorstep. " link={'https://www.behance.net/gallery/158520391/Ankra-Case-Study'}/><br/>

@@ -19,6 +19,7 @@ import Head from "./Components/Head";
 import Services from "./Components/Services";
 import Testimonial from "./Components/Testimonial";
 import Navbar from './Components/Navbar';
+import Header from './Components/Header';
 import Footer from './Components/Footer';
 import { FaArrowUp } from "react-icons/fa";
 import CountUp from 'react-countup';
@@ -74,18 +75,23 @@ const Home = () => {
                     </div>) : (
 
                 <>
-                    <Navbar/>
-                    <div className='pro grid sm:grid-cols-1 lg:grid-cols-1 items-center'>
-                        <div className="grid sm:justify-items-center lg:justify-items-start py-0 px-20 gap-0">
-                            <Fade direction="left" triggerOnce="true">
-                            <h2 className="text-primary font-bold text-6xl">I am Israel</h2><br/>
-                            <p className="text-white sm:text-center lg:text-left text-2xl">A Graphic Designer, Product Designer & Illustrator.</p><br/>
-                            <Link to='https://drive.google.com/file/d/1angQWC2zL_3h0B711whiC123vfJ9E4PZ/view?usp=drive_link' target="_blank" className="bg-primary py-4 px-8 text-white rounded-full hover:bg-transparent hover:text-white hover:border-2 border-white">View Resume</Link>
-                            </Fade>
+                    
+                    <div className="pro py-4 md:py-8">
+                        <div className="flex flex-col px-20 gap-0 md:gap-40">
+                            <div className="grid justify-items-center"><Header/></div>
+                        {/* <Header className=""/> */}
+                            <div className="flex flex-col items-center lg:items-start py-0 gap-0">
+                                <Fade direction="left" triggerOnce="true">
+                                <h2 className="text-primary font-bold text-4xl md:text-6xl">I am Israel</h2><br/>
+                                <p className="text-white text-center lg:text-left text-lg md:text-2xl">A Graphic Designer, Product Designer & Illustrator.</p><br/>
+                                <Link to='https://drive.google.com/file/d/1angQWC2zL_3h0B711whiC123vfJ9E4PZ/view?usp=drive_link' target="_blank" className="bg-primary py-4 px-8 text-white rounded-full hover:bg-transparent hover:text-white hover:border-2 border-white">View Resume</Link>
+                                </Fade>
+                            </div>
                         </div>
+                    
                     </div>
                     
-
+                    {/* <Header className="fixed top-4"/> */}
                     {/* Back to top button */}
                     <FaArrowUp onClick={() => handleClick()} style={{display: visible ? 'inline' : 'none'}} className="fixed bg-primary rounded-full text-3xl text-white cursor-pointer z-10 p-8 w-24 h-24 bottom-5 right-5 hover:bg-transparent hover:text-primary hover:border-primary hover:border-2"/>
 
@@ -108,7 +114,7 @@ const Home = () => {
                     </div> */}
 
                     {/* About */}
-                    <div className="grid justify-items-left items-center grid-cols-1 md:grid-cols-2 py-20 px-8 md:px-20 gap-20 bg-black bg-no-repeat bg-cover object-cover" >
+                    <div className="grid justify-items-left items-center grid-cols-1 md:grid-cols-1 lg:grid-cols-2 py-20 px-8 md:px-20 gap-20 bg-black bg-no-repeat bg-cover object-cover" >
                         <div className="flex flex-col px-2 justify-start">
                             <Fade direction="left" triggerOnce="true">
                                 <Head header="About Me"/>
@@ -187,7 +193,7 @@ const Home = () => {
                     <div className="py-12 px-8 md:px-20 gap-10 bg-black">
                         <div className="justify-center">
                             <Fade direction="down" triggerOnce="true"><Head header="Testimonials"/></Fade>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5">
                                 <Fade triggerOnce="true">
                                     <Testimonial image={kazeem} name="Ashaluwala Kazeem" role="Mobile Developer, Frontend Labs" text='"I had the pleasure of working with Israel on more than 3 projects. His proficiency in design is truly remarkable,
                                     showcasing not only technical expertise but also a keen aesthetic eye. Each collaboration with him was a seamless experience, consistently
@@ -210,7 +216,7 @@ const Home = () => {
                     </div>
 
                     {/* Contact */}
-                    <div className="grid justify-items-left items-center grid-cols-1 md:grid-cols-2 py-20 px-8 md:px-20 gap-20 bg-black bg-no-repeat bg-cover object-cover" >
+                    <div className="grid justify-items-left items-center grid-cols-1 md:grid-cols-1 lg:grid-cols-2 py-20 px-8 md:px-20 gap-20 bg-black bg-no-repeat bg-cover object-cover" >
                         <div className="grid justify-items-center"> 
                             <Fade direction="left" triggerOnce="true"><img src={woman} alt="" className="rounded-lg h-full w-full object-cover"/></Fade> 
                         </div>
