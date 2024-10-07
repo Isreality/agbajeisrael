@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
 import "./style.css";
 import "./index.css";
+import "./fonts.css";
 
 
 function App() {

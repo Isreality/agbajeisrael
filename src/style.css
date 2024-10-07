@@ -4,9 +4,10 @@
 
 @layer base{
 	html {
-		font-family: "Montserrat", system-ui, san-serif;
+		font-family: "Barlow Condensed", system-ui, san-serif;
 	}
 }
+
 
 @layer components{
     .hero{
