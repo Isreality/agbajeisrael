@@ -99,13 +99,13 @@ const Portfolio = () => {
                             <div className= {toggle === 1 ? 'show-tabs' : 'tabs'}>
                                 <div className="flex flex-col gap-2 md:gap-10">
                                     <Fade direction="up" triggerOnce="true">
-                                        <Card header="Airtime to Cash" btn="Live" image={a2c} text="Fintech" link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
-                                        <Card header="Clator" btn="Live" image={clator} text="Edtech" link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
-                                        <Card header="Teamify" btn="Case Study" image={teamify} text="Admin Dashboard" link={'https://www.behance.net/gallery/176343673/Teamify'}/>
-                                        <Card header="Ankra" btn="Case Study" image={ankra} text="Fashion | E-commerce " link={'https://www.behance.net/gallery/158520391/Ankra-Case-Study'}/><br/>
-                                        <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
-                                        <Card header="Livestock" btn="In progress" image={livestock} text="Animal | Health " link={'#'}/><br/>
+                                        <Card header="Airtime to Cash" btn="Live" image={a2c} text="Your one-stop financial assistant! Our app provides seamless airtime to cash conversion, allowing you to easily transfer your mobile airtime to your Nigerian bank account." link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
+                                        <Card header="Clator" btn="Live" image={clator} text="A Grade Point Calculator app for all universities, polytechnics, and colleges that use the 4.0 and 5.0 CGPA scale systems." link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
+                                        <Card header="Teamify" btn="Case Study" image={teamify} text="A web-based dashboard which serves as a centralized platform that enables team leaders, managers, and stakeholders to efficiently monitor, analyze, and optimize team performance, tasks, and collaboration in real-time" link={'https://www.behance.net/gallery/176343673/Teamify'}/>
+                                        <Card header="Ankra" btn="Case Study" image={ankra} text="A website that allows customers to find tailors within their vicinity, book appointments with them, choose the design they desire from the site or anywhere else and get it delivered to their doorstep. " link={'https://www.behance.net/gallery/158520391/Ankra-Case-Study'}/><br/>
+                                        <Card header="Livestock-Watch" btn="In progress" image={livestock} text="A web app that provides detailed health reports to help you make informed decisions about your livestock, identify trends and prevent future health issues. " link={'#'}/><br/>
                                         <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
+                                        <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
                                         {/* <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/>
                                         <Card header="G11" image={g11} text="Edtech" link={'https://www.behance.net/gallery/174205365/G11-Schools'}/>
                                         <Card header="ichat" image={ichat} text="Social Media" link={'https://www.behance.net/gallery/152349783/i-chat-App'}/>
