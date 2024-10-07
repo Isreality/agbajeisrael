@@ -1,9 +1,9 @@
-@font-face {
+/* @font-face {
     font-family: 'Barlow Condensed Bold';
     font-style: normal;
     font-weight: normal;
     src: local('Barlow Condensed Bold'), url('./fonts/BarlowCondensed-Bold.woff') format('woff');
-}
+} */
 
 @font-face {
     font-family: 'ClashDisplay-Semibold';
@@ -12,4 +12,13 @@
     font-weight: 700;
     font-display: swap;
     font-style: normal;
-  }
+}
+
+  /* @font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('./fonts/PlusJarkataSans/PlusJakartaSans-Regular.woff2') format('woff2'),
+        url('./fonts/PlusJarkataSans/PlusJakartaSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */

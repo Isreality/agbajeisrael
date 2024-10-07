@@ -91,7 +91,7 @@ const Portfolio = () => {
                             {/* <Header className=""/> */}
                                 {/* <div className="flex flex-col items-center lg:items-start py-0 gap-0"> */}
                                     <Fade direction="left" triggerOnce="true">
-                                    <h2 className="text-white text-center font-medium text-4xl">Portfolio</h2><br/>
+                                    <h2 className="text-white text-center font-black text-4xl">Portfolio</h2><br/>
                                     </Fade>
                                 {/* </div> */}
                             </div>

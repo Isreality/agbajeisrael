@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
 import "./style.css"
-// import izzy from './img/izzy.png';
+import "./fonts.css"
 import izzy2 from './img/izzy2.jpeg';
 import kazeem from './img/kazeem.jpg';
 import woman from './img/woman.png';
@@ -82,9 +82,9 @@ const Home = () => {
                         {/* <Header className=""/> */}
                             <div className="flex flex-col items-center lg:items-start py-0 gap-0">
                                 <Fade direction="left" triggerOnce="true">
-                                <h2 className="text-primary font-bold text-4xl md:text-6xl">I am Israel</h2><br/>
-                                <p className="text-white text-center lg:text-left text-lg md:text-2xl">A Graphic Designer, Product Designer & Illustrator.</p><br/>
-                                <Link to='https://drive.google.com/file/d/1angQWC2zL_3h0B711whiC123vfJ9E4PZ/view?usp=drive_link' target="_blank" className="bg-primary py-4 px-8 text-white rounded-full hover:bg-transparent hover:text-white hover:border-2 border-white">View Resume</Link>
+                                <h2 className="text-primary font-black text-4xl md:text-6xl" style={{fontFamily: 'ClashDisplay-Semibold, sans-serif'}}>I am Israel</h2><br/>
+                                <p className="text-white text-center lg:text-left text-lg md:text-2xl mb-1">A Graphic Designer, Product Designer & Illustrator.</p><br/>
+                                <Link to='https://drive.google.com/file/d/1angQWC2zL_3h0B711whiC123vfJ9E4PZ/view?usp=drive_link' target="_blank" className="bg-primary py-4 px-8 text-white rounded-full font-medium hover:bg-transparent hover:text-white hover:border-2 border-white">View Resume</Link>
                                 </Fade>
                             </div>
                         </div>
@@ -124,17 +124,17 @@ const Home = () => {
 
                             <div className="flex flex-col md:flex-row gap-3 text-white text-left">
                                 <div className="bg-shade px-4 md:px-8 py-4 rounded-md">
-                                    <h2 className="text-3xl md:text-4xl text-primary font-bold mb-2"><CountUp start={0} end={5} duration={8}/>+</h2>
+                                    <h2 className="text-3xl md:text-4xl text-primary font-black mb-2"><CountUp start={0} end={6} duration={8}/>+</h2>
                                     <p className="text-md md:text-lg">Years Experience</p>
                                 </div>
 
                                 <div className="bg-shade px-4 md:px-8 py-4 rounded-md">
-                                    <h2 className="text-3xl md:text-4xl text-primary font-bold mb-2"><CountUp start={0} end={10} duration={8}/>+</h2>
+                                    <h2 className="text-3xl md:text-4xl text-primary font-black mb-2"><CountUp start={0} end={20} duration={8}/>+</h2>
                                     <p className="text-lg">Clients</p>
                                 </div>
 
                                 <div className="bg-shade px-4 md:px-8 py-4 rounded-md">
-                                    <h2 className="text-3xl md:text-4xl text-primary font-bold mb-2"><CountUp start={0} end={50} duration={5}/>+</h2>
+                                    <h2 className="text-3xl md:text-4xl text-primary font-black mb-2"><CountUp start={0} end={100} duration={5}/>+</h2>
                                     <p className="text-lg">Projects</p>
                                 </div>
                             </div>
@@ -226,7 +226,7 @@ const Home = () => {
                                 <div className="bg-shade flex flex-row gap-2 md:gap-5 px-4 md:px-8 py-16 rounded-md items-center">
                                     <img src={phone} alt="" className="h-12 w-12 md:w-20 md:h-20"/>
                                     <div className="">
-                                        <h2 className="text-xl md:text-3xl text-primary font-bold mb-2">Phone</h2>
+                                        <h2 className="text-xl md:text-3xl text-primary font-black mb-2">Phone</h2>
                                         <p className="text-sm md:text-lg">+2348140082953</p>
                                     </div>  
                                 </div>
@@ -236,7 +236,7 @@ const Home = () => {
                                 <div className="bg-shade flex flex-row gap-2 md:gap-5 px-4 md:px-8 py-16 rounded-md items-center">
                                     <img src={email} alt="" className="h-12 w-12 md:w-20 md:h-20"/>
                                     <div className="">
-                                        <h2 className="text-xl md:text-3xl text-primary font-bold mb-2">Email</h2>
+                                        <h2 className="text-xl md:text-3xl text-primary font-black mb-2">Email</h2>
                                         <p className="text-sm md:text-lg">isrealitycreations@gmail.com</p>
                                     </div>  
                                 </div>

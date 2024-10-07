@@ -11,7 +11,7 @@ const Testimonial = (props) => {
                         <p className="text-white text-left font-light">{props.role}</p> 
                     </div>                    
                 </div><br/>
-                <p className="text-white text-sm text-left md:text-justify">{props.text}</p>                   
+                <p className="text-white text-sm md:text-md text-left md:text-justify">{props.text}</p>                   
             </div>
            
         </>
