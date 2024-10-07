@@ -88,8 +88,8 @@ const Portfolio = () => {
                         <FaArrowUp onClick={() => handleClick()} style={{display: visible ? 'inline' : 'none'}} className="fixed bg-primary rounded-full text-3xl text-white cursor-pointer z-10 p-8 w-24 h-24 bottom-5 right-5 hover:bg-transparent hover:text-primary hover:border-primary hover:border-2"/>   
                         
                         {/* Tab Header */}
-                        <div className="lg:px-20 py-16 bg-black">
-                            <div className="grid grid-cols-3 border-b-2 text-white border-fade py-0 lg:px-32 items-center gap-0 cursor-pointer">           
+                        <div className="px-4 md:px-20 py-16 bg-black">
+                            <div className="grid grid-cols-2 md:grid-cols-3 text-white py-4 px-4 lg:px-32 items-center gap-2 md:gap-0 cursor-pointer">           
                                 <h2 className= {`${toggle === 1 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(1)}>Product Design</h2>                
                                 <h2 className={`${toggle === 2 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(2)}>Graphic Design</h2>
                                 <h2 className={`${toggle === 3 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(3)}>Illustration</h2>
@@ -97,39 +97,21 @@ const Portfolio = () => {
                             
                             {/* Product Design */}
                             <div className= {toggle === 1 ? 'show-tabs' : 'tabs'}>
-                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
-                                    <Fade triggerOnce="true">
+                                <div className="flex flex-col gap-2 md:gap-10">
+                                    <Fade direction="up" triggerOnce="true">
                                         <Card header="Airtime to Cash" btn="Live" image={a2c} text="Fintech" link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
                                         <Card header="Clator" btn="Live" image={clator} text="Edtech" link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
                                         <Card header="Teamify" btn="Case Study" image={teamify} text="Admin Dashboard" link={'https://www.behance.net/gallery/176343673/Teamify'}/>
                                         <Card header="Ankra" btn="Case Study" image={ankra} text="Fashion | E-commerce " link={'https://www.behance.net/gallery/158520391/Ankra-Case-Study'}/><br/>
-                                        {/* <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
+                                        <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
                                         <Card header="Livestock" btn="In progress" image={livestock} text="Animal | Health " link={'#'}/><br/>
-                                        <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/> */}
+                                        <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
                                         {/* <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/>
                                         <Card header="G11" image={g11} text="Edtech" link={'https://www.behance.net/gallery/174205365/G11-Schools'}/>
                                         <Card header="ichat" image={ichat} text="Social Media" link={'https://www.behance.net/gallery/152349783/i-chat-App'}/>
                                         <Card header="Carz" image={car} text="Automobile" link={'https://mir-s3-cdn-cf.behance.net/projects/808/23fb76151923401.Y3JvcCw5NDYsNzQwLDQ5LDA.jpg'}/> */}
                                     </Fade>
                                 </div>
-
-                                {/* <div className="flex sm:flex-col md:flex-row gap-5"> */}
-                                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
-                                    <Fade triggerOnce="true">
-                                        <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transport " link={'https://www.trixmedtransportation.com/'}/><br/>
-                                        <Card header="Livestock" btn="In progress" image={livestock} text="Animal | Health " link={'#'}/><br/>  
-                                        {/* <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/> */}
-                                    </Fade>
-                                </div><br/><br/> 
-
-                                {/* <div className="flex sm:flex-col md:flex-row gap-5">
-                                    <Zoom clear>
-                                        <div>
-                                            <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
-                                        </div>
-                                        <div className=""></div>
-                                    </Zoom>
-                                </div><br/><br/>      */}
   
                                 <Fade direction="down" triggerOnce="true">
                                     <Link to='https://www.behance.net/agbajeisrael' target="_blank" className="animate-bounce bg-primary py-4 px-16 justify-items-start ml-0 text-white rounded-full hover:bg-white hover:text-primary hover:border-2 border-primary">View More</Link> 

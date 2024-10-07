@@ -216,21 +216,26 @@ const Home = () => {
                         </div>
 
                         <div className="flex flex-col gap-5 text-white text-left">
-                            <div className="bg-shade flex flex-row gap-2 md:gap-5 px-4 md:px-8 py-16 rounded-md items-center">
-                                <img src={phone} alt="" className="h-12 w-12 md:w-20 md:h-20"/>
-                                <div className="">
-                                    <h2 className="text-xl md:text-3xl text-primary font-bold mb-2">Phone</h2>
-                                    <p className="text-sm md:text-lg">+2348140082953</p>
-                                </div>  
-                            </div>
-
-                            <div className="bg-shade flex flex-row gap-2 md:gap-5 px-4 md:px-8 py-16 rounded-md items-center">
-                                <img src={email} alt="" className="h-12 w-12 md:w-20 md:h-20"/>
-                                <div className="">
-                                    <h2 className="text-xl md:text-3xl text-primary font-bold mb-2">Email</h2>
-                                    <p className="text-sm md:text-lg">isrealitycreations@gmail.com</p>
-                                </div>  
-                            </div>
+                            <Fade direction="down" triggerOnce="true">
+                                <div className="bg-shade flex flex-row gap-2 md:gap-5 px-4 md:px-8 py-16 rounded-md items-center">
+                                    <img src={phone} alt="" className="h-12 w-12 md:w-20 md:h-20"/>
+                                    <div className="">
+                                        <h2 className="text-xl md:text-3xl text-primary font-bold mb-2">Phone</h2>
+                                        <p className="text-sm md:text-lg">+2348140082953</p>
+                                    </div>  
+                                </div>
+                            </Fade>
+                            
+                             <Fade direction="up" triggerOnce="true">
+                                <div className="bg-shade flex flex-row gap-2 md:gap-5 px-4 md:px-8 py-16 rounded-md items-center">
+                                    <img src={email} alt="" className="h-12 w-12 md:w-20 md:h-20"/>
+                                    <div className="">
+                                        <h2 className="text-xl md:text-3xl text-primary font-bold mb-2">Email</h2>
+                                        <p className="text-sm md:text-lg">isrealitycreations@gmail.com</p>
+                                    </div>  
+                                </div>
+                            </Fade>           
+                            
                         </div>
                     </div>
                     

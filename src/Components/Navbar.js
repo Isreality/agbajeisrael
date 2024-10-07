@@ -27,7 +27,7 @@ const Navbar = () => {
                 <button onClick={()=>toggleNavbar(true)} className="text-black">{isOpen ? <MdClose/> : <RxHamburgerMenu className="text-black font-bold absolute top-10 size-5 mr-4 right-4"/>}</button>
                 {isOpen &&(
                 <div>
-                    <div className="fixed h-full w-screen right-0 -translate-x-0 transition-all">
+                    <div className="fixed h-full w-screen right-0 -translate-x-0 transition-all z-50">
                         <div className="flex bg-white flex-col absolute right-0 top-0 h-screen p-8 gap-10 z-[100] w-56">
                         {NavbarData.map((nav) => (
                             <div key={nav.id}>

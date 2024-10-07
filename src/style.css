@@ -46,11 +46,12 @@
     }
 
 	.active-tabs{
-		border-bottom: 4px solid #FBAD30;
+		background-color: #FBAD30;
+		border-radius: 100px;
 		padding-left: 32px;
 		padding-right: 32px;
-		padding-top: 8px;
-		padding-bottom: 8px;
+		padding-top: 16px;
+		padding-bottom: 16px;
 		font-weight: 500;
 		font-size: 20px;
 	}
@@ -59,7 +60,7 @@
 		padding-left: 32px;
 		padding-right: 32px;
 		font-weight: 500;
-
+		font-size: 20px;
 	}
 
 	.tabs{
@@ -82,6 +83,24 @@
 			background-size: cover;
 			background-color: rgba(0, 0, 0, 0.6);
 			background-blend-mode: multiply;
+		}
+
+		.active-tabs{
+			background-color: #FBAD30;
+			border-radius: 100px;
+			padding-left: 16px;
+			padding-right: 16px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+			font-weight: 500;
+			font-size: 14px;
+		}
+	
+		.tab{
+			padding-left: 16px;
+			padding-right: 16px;
+			font-weight: 500;
+			font-size: 14px;
 		}
 
 	  }
