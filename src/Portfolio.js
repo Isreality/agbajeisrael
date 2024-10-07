@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
 import "./style.css";
+import "./fonts.css"
 import Product from './Components/Product';
 import Brand from './Components/Brand';
 import ankra from './img/ankra.png';
