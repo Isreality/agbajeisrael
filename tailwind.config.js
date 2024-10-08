@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        custom: ['Plus Jakarta Sans', 'sans-serif'],
+      },
       colors: {
         primary: '#FBAD30',
         secondary: 'rgba(0, 0, 0, 0.6)',
