@@ -5,6 +5,10 @@
     src: local('Barlow Condensed Bold'), url('./fonts/BarlowCondensed-Bold.woff') format('woff');
 } */
 
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 @font-face {
     font-family: 'ClashDisplay-Semibold';
     src: url('./fonts/ClashDisplay-Semibold.woff2') format('woff2'),
@@ -76,3 +80,4 @@
     font-style: normal;
     font-display: swap;
 }
+
