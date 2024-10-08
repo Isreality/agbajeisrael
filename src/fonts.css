@@ -5,9 +5,9 @@
     src: local('Barlow Condensed Bold'), url('./fonts/BarlowCondensed-Bold.woff') format('woff');
 } */
 
-body {
+/* body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-}
+} */
 
 @font-face {
     font-family: 'ClashDisplay-Semibold';
