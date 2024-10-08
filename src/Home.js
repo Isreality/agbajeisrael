@@ -74,7 +74,7 @@ const Home = () => {
                         /> 
                     </div>) : (
 
-                <>
+                <div className="font-custom">
                     
                     <div className="pro py-4 md:py-8">
                         <div className="flex flex-col px-20 gap-0 md:gap-40">
@@ -247,7 +247,7 @@ const Home = () => {
                     
                     <Footer/>
                     
-                </>
+                </div>
                   )
 
             }
