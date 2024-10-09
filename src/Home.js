@@ -76,15 +76,28 @@ const Home = () => {
 
                 <div className="font-custom">
                     
-                    <div className="pro py-4 md:py-8">
+                    {/* <div className="pro py-4 md:py-8">
                         <div className="flex flex-col px-20 gap-0 md:gap-40">
                             <div className="grid justify-items-center"><Header/></div>
-                        {/* <Header className=""/> */}
                             <div className="flex flex-col items-center lg:items-start py-0 gap-0">
                                 <Fade direction="left" triggerOnce="true">
                                 <h2 className="text-primary font-black text-4xl md:text-6xl" style={{fontFamily: 'ClashDisplay-Semibold, sans-serif'}}>I am Israel</h2><br/>
                                 <p className="text-white text-center lg:text-left text-lg md:text-2xl mb-1">A Graphic Designer, Product Designer & Illustrator.</p><br/>
                                 <Link to='https://drive.google.com/file/d/1angQWC2zL_3h0B711whiC123vfJ9E4PZ/view?usp=drive_link' target="_blank" className="bg-primary py-4 px-8 text-white rounded-full font-medium hover:bg-transparent hover:text-white hover:border-2 border-white">View Resume</Link>
+                                </Fade>
+                            </div>
+                        </div>
+                    
+                    </div> */}
+
+                    <div className="pro py-4 md:py-8">
+                        <div className="flex flex-col px-20 gap-0 md:gap-40">
+                            <div className="grid justify-items-center"><Header/></div>
+                            <div className="flex flex-col items-center lg:items-center py-0 gap-0">
+                                <Fade direction="down" triggerOnce="true">
+                                <h2 className="bg-gradient-to-r from-primary to-yellow-400 bg-clip-text text-transparent drop-shadow-[0_0_8px_rgba(255,215,0,0.8)] font-black text-4xl md:text-9xl lg:text-9xl" style={{fontFamily: 'ClashDisplay-Semibold, sans-serif'}}>I am Israel</h2><br/>
+                                {/* <p className="text-white text-center lg:text-left text-lg md:text-2xl mb-1">A Graphic Designer, Product Designer & Illustrator.</p><br/> */}
+                                {/* <Link to='https://drive.google.com/file/d/1angQWC2zL_3h0B711whiC123vfJ9E4PZ/view?usp=drive_link' target="_blank" className="bg-primary py-4 px-8 text-white rounded-full font-medium hover:bg-transparent hover:text-white hover:border-2 border-white">View Resume</Link> */}
                                 </Fade>
                             </div>
                         </div>

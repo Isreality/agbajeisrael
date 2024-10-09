@@ -25,6 +25,18 @@
     }
 
 	.pro{
+        background-image: url("./img/hero.jpg");
+		background-repeat: no-repeat;
+	    min-height: 1000px;
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		/* background-attachment: fixed; */
+		/* background-color: rgba(0, 0, 0, 0.7);
+		background-blend-mode: multiply; */
+    }
+
+	/* .pro{
         background-image: url("./img/izzy3.jpg");
 		background-repeat: no-repeat;
 	    min-height: 800px;
@@ -33,8 +45,7 @@
 		background-size: cover;
 		background-color: rgba(0, 0, 0, 0.7);
 		background-blend-mode: multiply;
-		/* z-index: -1; */
-    }
+    } */
 
 	.port{
         background-image: url("./img/port1.jpg"); 
@@ -78,14 +89,14 @@
 
 	@media screen and (max-width: 640px) {
 		.pro{
-			background-image: url("./img/izzy3.jpg");
+			background-image: url("./img/hero.jpg");
 			background-repeat: no-repeat;
 			min-height: 400px;
 			position: relative;
 			background-position: center;
 			background-size: cover;
-			background-color: rgba(0, 0, 0, 0.6);
-			background-blend-mode: multiply;
+			/* background-color: rgba(0, 0, 0, 0.6);
+			background-blend-mode: multiply; */
 		}
 
 		.active-tabs{
