@@ -21,7 +21,7 @@ const Navbar = () => {
     return ( 
         <>
             {/* Mobile */}
-            <div className="md:hidden flex flex-row justify-between items-center bg-white px-4 py-2 rounded-full w-full">
+            <div className="md:hidden flex flex-row justify-between items-center gap-10 bg-white px-4 py-2 rounded-full left-0 w-full">
                 <div className="md:hidden items-center">                
                     <Link to='/Home' ><h1 className="mb-4 mt-4 font-extrabold text-primary text-lg">Isreality</h1></Link>
                 </div>
@@ -42,9 +42,9 @@ const Navbar = () => {
                 )}      
                 </div>
             </div>
-
+            
+            {/* Tab & Desktop */}
             <div className="top-2 left-4 md:left-60 md:w-[90%] lg:w-[60%] bg-none md:bg-white flex flex-wrap justify-between px-4 md:px-16 py-4 m-0 z-50 items-center rounded-full">    
-                {/* Tab & Desktop */}
                 <div className="hidden md:flex lg:flex justify-start items-center">                
                 <Link to='/Home' ><h1 className="mb-4 mt-4 font-extrabold text-primary text-lg md:text-2xl">Isreality</h1></Link>
                 </div>
