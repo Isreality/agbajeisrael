@@ -77,7 +77,7 @@ const Portfolio = () => {
                         /> 
                     </div>) : (
 
-                    <div className=""> 
+                    <div className="font-custom"> 
                     {/* <Navbar/>           */}
                         {/* Portfolio */}
                         {/* <div className='port grid items-center'>
@@ -92,7 +92,7 @@ const Portfolio = () => {
                             {/* <Header className=""/> */}
                                 {/* <div className="flex flex-col items-center lg:items-start py-0 gap-0"> */}
                                     <Fade direction="left" triggerOnce="true">
-                                    <h2 className="text-white text-center font-black text-4xl">Portfolio</h2><br/>
+                                    <h2 className="text-white text-center font-black text-6xl" style={{fontFamily: 'ClashDisplay-Semibold, sans-serif'}}>Portfolio</h2><br/>
                                     </Fade>
                                 {/* </div> */}
                             </div>
