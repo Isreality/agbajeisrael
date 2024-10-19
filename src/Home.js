@@ -174,7 +174,7 @@ const Home = () => {
                     </div>
 
                     {/* Works */}
-                    <div className="py-16 px-8 md:px-20 gap-10 bg-black">
+                    <div className="py-16 px-4 md:px-20 gap-10 bg-black">
                         <div className="justify-start">
                             <Fade direction="right" triggerOnce="true"><Head header="My Works"/></Fade>
                             <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-10">
