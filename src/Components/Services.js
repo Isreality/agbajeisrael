@@ -6,8 +6,8 @@ const Services = (props) => {
         <>
             <div className="card bg-shade px-8 py-16 rounded-md grid justify-items-center md:justify-items-start">
                 <img src={props.image} alt="" className='w-90'></img><br/>
-                <h2 className="text-primary text-xl md:text-3xl text-center md:text-left font-black mb-2">{props.header}</h2>
-                <p className="text-white text-sm md:text-base text-center md:text-left">{props.text}</p>
+                <h2 className="text-primary text-2xl md:text-3xl text-center md:text-left font-black mb-2">{props.header}</h2>
+                <p className="text-white text-base md:text-base text-center md:text-left">{props.text}</p>
             </div>
         </>
      );

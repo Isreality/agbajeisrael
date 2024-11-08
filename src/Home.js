@@ -116,7 +116,7 @@ const Home = () => {
                             <Fade direction="left" triggerOnce="true">
                                 <Head header="About Me"/>
                                 {/* <p className="md:text-justify text-left text-white font-light text-sm md:text-lg mb-8">I am a highly creative and detail-oriented Graphic Designer, Product Designer & Illustrator with years of experience in developing captivating visual identities and designing user-centric products.</p> */}
-                                <p className="md:text-justify text-left text-white font-light text-sm md:text-lg mb-8">I’m a passionate Product & Brand Designer, Frontend Web Developer and Illustrator, dedicated to crafting beautiful and functional digital experiences. With a strong foundation in modern web technologies like HTML, CSS, JavaScript and Wordpress, I specialize in creating responsive and intuitive websites that captivate users and enhance engagement.</p>
+                                <p className="md:text-justify text-left text-white font-light text-base md:text-lg mb-8">I’m a passionate Product & Brand Designer, Frontend Web Developer and Illustrator, dedicated to crafting beautiful and functional digital experiences. With a strong foundation in modern web technologies like HTML, CSS, JavaScript and Wordpress, I specialize in creating responsive and intuitive websites that captivate users and enhance engagement.</p>
                             </Fade><br/>
 
                             <div className="flex flex-col md:flex-row gap-3 text-white text-left">
