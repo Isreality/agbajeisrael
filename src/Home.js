@@ -12,6 +12,7 @@ import brand from './img/brand.svg';
 import product from './img/product.svg';
 import ill from './img/ill.svg';
 import ankra from './img/ankra.png';
+import code from './img/code.svg';
 import teamify from './img/teamify.png'
 import { Link } from "react-router-dom";
 import Card from "./Components/Card";
@@ -108,31 +109,14 @@ const Home = () => {
                     {/* Back to top button */}
                     <FaArrowUp onClick={() => handleClick()} style={{display: visible ? 'inline' : 'none'}} className="fixed bg-primary rounded-full text-3xl text-white cursor-pointer z-10 p-8 w-24 h-24 bottom-5 right-5 hover:bg-transparent hover:text-primary hover:border-primary hover:border-2"/>
 
-                    {/* Stat */}
-                    {/* <div className="grid items-center sm:grid-cols-3 lg:grid-cols-3 py-12 px-32 lg:gap-10 sm:gap-5 bg-black text-white text-center">
-                        <div className="">
-                            <h2 className="text-7xl text-primary font-bold mb-2"><CountUp start={0} end={5} duration={8}/>+</h2>
-                            <p className="text-2xl mb-8">Years Experience</p>
-                        </div>
-
-                        <div className="">
-                            <h2 className="text-7xl text-primary font-bold mb-2"><CountUp start={0} end={10} duration={8}/>+</h2>
-                            <p className="text-2xl mb-8">Clients</p>
-                        </div>
-
-                        <div className="">
-                            <h2 className="text-7xl text-primary font-bold mb-2"><CountUp start={0} end={50} duration={5}/>+</h2>
-                            <p className="text-2xl mb-8">Projects</p>
-                        </div>
-                    </div> */}
 
                     {/* About */}
                     <div className="grid justify-items-left items-center grid-cols-1 md:grid-cols-1 lg:grid-cols-2 py-20 px-8 md:px-20 gap-20 bg-black bg-no-repeat bg-cover object-cover" >
                         <div className="flex flex-col px-2 justify-start">
                             <Fade direction="left" triggerOnce="true">
                                 <Head header="About Me"/>
-                                <p className="md:text-justify text-left text-white font-light text-sm md:text-lg mb-8">I am a highly creative and detail-oriented Graphic Designer, Product Designer & Illustrator with years of experience in developing captivating visual identities and designing user-centric products.</p>
-                                {/* <p className="lg:text-justify sm:text-left text-white font-light text-lg mb-8">A problem solver with a passion for innovation and can collaborate with cross-functional teams to deliver exceptional design solutions using deep understanding of design principles.</p> */}
+                                {/* <p className="md:text-justify text-left text-white font-light text-sm md:text-lg mb-8">I am a highly creative and detail-oriented Graphic Designer, Product Designer & Illustrator with years of experience in developing captivating visual identities and designing user-centric products.</p> */}
+                                <p className="md:text-justify text-left text-white font-light text-sm md:text-lg mb-8">I’m a passionate Product & Brand Designer, Frontend Web Developer and Illustrator, dedicated to crafting beautiful and functional digital experiences. With a strong foundation in modern web technologies like HTML, CSS, JavaScript and Wordpress, I specialize in creating responsive and intuitive websites that captivate users and enhance engagement.</p>
                             </Fade><br/>
 
                             <div className="flex flex-col md:flex-row gap-3 text-white text-left">
@@ -162,11 +146,13 @@ const Home = () => {
                     <div className="py-12 px-8 md:px-20 gap-10 bg-black">
                         <div className="justify-start">
                             <Fade direction="left" triggerOnce="true"><Head header="What I Do"/></Fade>
-                            <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
+                            <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-5">
                                 <Fade triggerOnce="true">
                                     <Services image={product} header="Product Design" text="Focus on creating visually appealing interfaces that delights users through wireframing, prototyping, and user testing to deliver a seamless user experience."/>
                                     <Services image={brand} header="Graphic Design" text="Design unique logos and graphics that reflect the essence of your brand, ensuring it maintains a visually appealing image across all digital touchpoints."/>
-                                    <Services image={ill} header="Illustration" text="Leverage my artistic skills to add a compelling visual layer to your project. Let's create visuals that captivate and communicate."/>
+                                    <Services image={code} header="Web Development" text="Create visually stunning and user-friendly websites and responsive web applications using modern technologies like HTML, CSS, JavaScript(React) and Wordpress. "/>
+                                    <Services image={ill} header="Illustration" text="Whether it’s digital artwork, character design, or icons, I create visuals that enhance storytelling and branding, bringing creativity and originality to every project."/>
+                                    {/* <Services image={ill} header="Illustration" text="Leverage my artistic skills to add a compelling visual layer to your project. Let's create visuals that captivate and communicate."/> */}
                                 </Fade>
                             </div>
                             

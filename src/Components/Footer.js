@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import behance from '../img/behance.svg';
 import linkedin from '../img/linkedin.svg';
 import X from '../img/X.svg';
+import github from '../img/github.png';
 // import NavbarData from "../Components/NavbarData";
 
 const Footer = () => {
@@ -20,6 +21,7 @@ const Footer = () => {
                     <div className="flex justify-start gap-5">
                     <Link to='https://www.behance.net/agbajeisrael' target="_blank"><img src={behance} alt="" className='h-10 w-10'></img></Link>
                     <Link to='https://www.linkedin.com/in/agbajeisrael' target="_blank"><img src={linkedin} alt="" className='h-10 w-10'></img></Link>
+                    <Link to='https://www.github.com/Isreality' target="_blank"><img src={github} alt="" className='h-10 w-10'></img></Link>
                     <Link to='https://www.twitter.com/Agbaje_Israel01' target="_blank"><img src={X} alt="" className='h-10 w-10'></img></Link>
                     </div>                    
                 </div>

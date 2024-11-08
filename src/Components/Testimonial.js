@@ -7,8 +7,8 @@ const Testimonial = (props) => {
                 <div className="flex justify-start items-center gap-3">
                     <img src={props.image} alt="" className=' h-20 w-20 rounded-full object-cover'></img>
                     <div className="grid justify-items-start">
-                        <p className="text-primary text-left text-xl font-bold">{props.name}</p>
-                        <p className="text-white text-left font-light">{props.role}</p> 
+                        <p className="text-primary text-left text-base md:text-xl font-bold">{props.name}</p>
+                        <p className="text-white text-left text-base md:text-xl font-light">{props.role}</p> 
                     </div>                    
                 </div><br/>
                 <p className="text-white text-sm md:text-md text-left md:text-justify">{props.text}</p>                   

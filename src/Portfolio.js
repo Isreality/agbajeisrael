@@ -78,7 +78,7 @@ const Portfolio = () => {
                     </div>) : (
 
                     <div className="font-custom"> 
-                    {/* <Navbar/>           */}
+                    {/* <Navbar/>   */}
                         {/* Portfolio */}
                         {/* <div className='port grid items-center'>
                             <div className="head py-24 px-20">
@@ -103,10 +103,11 @@ const Portfolio = () => {
                         
                         {/* Tab Header */}
                         <div className="px-4 md:px-20 py-16 bg-black">
-                            <div className="grid grid-cols-2 md:grid-cols-3 text-white py-4 px-4 lg:px-32 items-center gap-2 md:gap-0 cursor-pointer">           
-                                <h2 className= {`${toggle === 1 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(1)}>Product Design</h2>                
-                                <h2 className={`${toggle === 2 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(2)}>Graphic Design</h2>
-                                <h2 className={`${toggle === 3 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(3)}>Illustration</h2>
+                            <div className="grid grid-cols-4 md:grid-cols-4 text-white text-sm md:text-base py-4 px-4 md:px-32 items-center gap-0 md:gap-0 cursor-pointer">           
+                                <h2 className= {`${toggle === 1 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(1)}>UI/UX</h2>
+                                <h2 className={`${toggle === 2 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(2)}>Web</h2>                
+                                <h2 className={`${toggle === 3 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(3)}>Graphics</h2>
+                                <h2 className={`${toggle === 4 ? "tab active-tabs" : "tab"}`} onClick={()=>updateToggle(4)}>Illustration</h2>
                             </div><br/><br/> 
                             
                             {/* Product Design */}
@@ -120,25 +121,35 @@ const Portfolio = () => {
                                         <Card header="Livestock-Watch" btn="Live" image={livestock} text="A web app that provides detailed health reports to help you make informed decisions about your livestock, identify trends and prevent future health issues. " link={'https://livestock-mgt.vercel.app'}/><br/>
                                         <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
                                         <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
-                                        {/* <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/>
-                                        <Card header="G11" image={g11} text="Edtech" link={'https://www.behance.net/gallery/174205365/G11-Schools'}/>
+                                        <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/>
+                                        {/*<Card header="G11" image={g11} text="Edtech" link={'https://www.behance.net/gallery/174205365/G11-Schools'}/>
                                         <Card header="ichat" image={ichat} text="Social Media" link={'https://www.behance.net/gallery/152349783/i-chat-App'}/>
                                         <Card header="Carz" image={car} text="Automobile" link={'https://mir-s3-cdn-cf.behance.net/projects/808/23fb76151923401.Y3JvcCw5NDYsNzQwLDQ5LDA.jpg'}/> */}
                                     </Fade>
-                                </div>
+                                </div><br/><br/>
   
                                 <Fade direction="down" triggerOnce="true">
                                     <Link to='https://www.behance.net/agbajeisrael' target="_blank" className="animate-bounce bg-primary py-4 px-16 justify-items-start ml-0 text-white rounded-full hover:bg-white hover:text-primary hover:border-2 border-primary">View More</Link> 
                                 </Fade> 
                             </div>
+
+                            {/* Frontend */}
+                            <div className= {toggle === 2 ? 'show-tabs' : 'tabs'}>
+                                <div className="flex flex-col gap-2 md:gap-10">
+                                    <Fade direction="up" triggerOnce="true">
+                                        <Card header="Livestock-Watch" btn="Live" image={livestock} text="A web app that provides detailed health reports to help you make informed decisions about your livestock, identify trends and prevent future health issues. " link={'https://livestock-mgt.vercel.app'}/><br/>
+                                    </Fade>
+                                </div> 
+                            </div>
+
                             
                             {/* Brand */}
-                            <div className={toggle === 2 ? 'show-tabs' : 'tabs'}>
+                            <div className={toggle === 3 ? 'show-tabs' : 'tabs'}>
                                 <Brand/> 
                             </div>
                             
                             {/* Illustration */}
-                            <div className={toggle === 3 ? 'show-tabs' : 'tabs'}>
+                            <div className={toggle === 4 ? 'show-tabs' : 'tabs'}>
                                 <Product/> 
                             </div> 
                         </div>
