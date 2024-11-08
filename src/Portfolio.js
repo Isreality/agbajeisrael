@@ -11,6 +11,7 @@ import a2c from './img/a2c.jpg'
 import trixmed from './img/trixmed.jpg'
 import livestock from './img/livestock.jpg'
 import goodness from './img/goodness.jpg'
+import hub from './img/hub.jpg'
 import foodie from './img/foodie.png'
 import g11 from './img/g11.jpg'
 import ichat from './img/ichat.jpg'
@@ -118,10 +119,11 @@ const Portfolio = () => {
                                         <Card header="Clator" btn="Live" image={clator} text="A Grade Point Calculator app for all universities, polytechnics, and colleges that use the 4.0 and 5.0 CGPA scale systems." link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
                                         <Card header="Teamify" btn="Case Study" image={teamify} text="A web-based dashboard which serves as a centralized platform that enables team leaders, managers, and stakeholders to efficiently monitor, analyze, and optimize team performance, tasks, and collaboration in real-time" link={'https://www.behance.net/gallery/176343673/Teamify'}/>
                                         <Card header="Ankra" btn="Case Study" image={ankra} text="A website that allows customers to find tailors within their vicinity, book appointments with them, choose the design they desire from the site or anywhere else and get it delivered to their doorstep. " link={'https://www.behance.net/gallery/158520391/Ankra-Case-Study'}/><br/>
+                                        <Card header="Izzy Hub" btn="Live" image={hub} text="A website that provides a nurturing and inclusive learning environment which empowers students to reach their full potential academically. " link={'https://izzy-hub.vercel.app/'}/><br/>
                                         <Card header="Livestock-Watch" btn="Live" image={livestock} text="A web app that provides detailed health reports to help you make informed decisions about your livestock, identify trends and prevent future health issues. " link={'https://livestock-mgt.vercel.app'}/><br/>
                                         <Card header="Goodness Gym" btn="In progress" image={goodness} text="Fitness" link={'#'}/><br/>
                                         <Card header="Trixmed" btn="Live" image={trixmed} text="Healthcare | Transportation " link={'https://www.trixmedtransportation.com/'}/><br/>
-                                        <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/>
+                                        {/* <Card header="Foodies" btn="Case Study" image={foodie} text="Food" link={'https://www.behance.net/gallery/155884893/Foodie-UIUX-Case-Study'}/> */}
                                         {/*<Card header="G11" image={g11} text="Edtech" link={'https://www.behance.net/gallery/174205365/G11-Schools'}/>
                                         <Card header="ichat" image={ichat} text="Social Media" link={'https://www.behance.net/gallery/152349783/i-chat-App'}/>
                                         <Card header="Carz" image={car} text="Automobile" link={'https://mir-s3-cdn-cf.behance.net/projects/808/23fb76151923401.Y3JvcCw5NDYsNzQwLDQ5LDA.jpg'}/> */}
@@ -137,6 +139,7 @@ const Portfolio = () => {
                             <div className= {toggle === 2 ? 'show-tabs' : 'tabs'}>
                                 <div className="flex flex-col gap-2 md:gap-10">
                                     <Fade direction="up" triggerOnce="true">
+                                        <Card header="Izzy Hub" btn="Live" image={hub} text="A website that provides a nurturing and inclusive learning environment which empowers students to reach their full potential academically. " link={'https://izzy-hub.vercel.app/'}/><br/>
                                         <Card header="Livestock-Watch" btn="Live" image={livestock} text="A web app that provides detailed health reports to help you make informed decisions about your livestock, identify trends and prevent future health issues. " link={'https://livestock-mgt.vercel.app'}/><br/>
                                     </Fade>
                                 </div> 
