@@ -140,8 +140,8 @@ const Portfolio = () => {
                             <div className= {toggle === 2 ? 'show-tabs' : 'tabs'}>
                                 <div className="flex flex-col gap-2 md:gap-10">
                                     <Fade direction="up" triggerOnce="true">
+                                        <Card header="Agbaje Israel" btn="Live" image={izeo} text="My personal portfolio website " link={'https://agbajeisrael.vercel.app'}/><br/>
                                         <Card header="Izzy Hub" btn="Live" image={hub} text="A website that provides a nurturing and inclusive learning environment which empowers students to reach their full potential academically. " link={'https://izzy-hub.vercel.app/'}/><br/>
-                                        <Card header="Agbaje Israel" btn="Live" image={livestock} text="My personal portfolio website " link={'https://agbajeisrael.vercel.app'}/><br/>
                                         <Card header="Livestock-Watch" btn="Live" image={livestock} text="A web app that provides detailed health reports to help you make informed decisions about your livestock, identify trends and prevent future health issues. " link={'https://livestock-mgt.vercel.app'}/><br/>
                                     </Fade>
                                 </div> 
