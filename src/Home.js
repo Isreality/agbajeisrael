@@ -13,7 +13,7 @@ import product from './img/product.svg';
 import ill from './img/ill.svg';
 import ankra from './img/ankra.png';
 import code from './img/code.svg';
-import teamify from './img/teamify.png'
+import ig from './img/ig.png'
 import { Link } from "react-router-dom";
 import Card from "./Components/Card";
 import Head from "./Components/Head";
@@ -165,7 +165,7 @@ const Home = () => {
                             <Fade direction="right" triggerOnce="true"><Head header="My Works"/></Fade>
                             <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-10">
                                 <Fade triggerOnce="true">
-                                    <Card header="Teamify" image={teamify} text="Admin Dashboard" btn="Case Study" link={'https://www.behance.net/gallery/176343673/Teamify'}/>
+                                    <Card header="iGuard" image={ig} text="Crypto Wallet" btn="Case Study" link={'https://www.behance.net/gallery/224472665/iGuard'}/>
                                     <Card header="Ankra" image={ankra} className="h-full w-full object-cover hover:scale-105" btn="Case Study" text="E-commerce Website" link={'https://www.behance.net/gallery/158520391/Ankra-Case-Study'}/>
                                 </Fade>
                             </div><br/><br/>

@@ -5,6 +5,7 @@ import "./fonts.css"
 import Product from './Components/Product';
 import Brand from './Components/Brand';
 import ankra from './img/ankra.png';
+import ig from './img/ig.png';
 import clator from './img/clator.jpg';
 import teamify from './img/teamify.png'
 import a2c from './img/a2c.jpg'
@@ -116,6 +117,7 @@ const Portfolio = () => {
                             <div className= {toggle === 1 ? 'show-tabs' : 'tabs'}>
                                 <div className="flex flex-col gap-2 md:gap-10">
                                     <Fade direction="up" triggerOnce="true">
+                                        <Card header="iGuard" btn="Case Study" image={ig} text="A crypto wallet designed to offer users an intuitive, secure and seamless experience in managing cryptocurrency assets." link={'https://www.behance.net/gallery/224472665/iGuard'}/>
                                         <Card header="Airtime to Cash" btn="Live" image={a2c} text="An app that provides seamless airtime to cash conversion, allowing users to easily transfer mobile airtime to their Nigerian bank account." link={'https://play.google.com/store/apps/details?id=com.airtimetocash.app&hl=ru'}/>
                                         <Card header="Clator" btn="Live" image={clator} text="A Grade Point Calculator app for all universities, polytechnics, and colleges that use the 4.0 and 5.0 CGPA scale systems." link={'https://play.google.com/store/apps/details?id=net.ngscholars.clator&hl=en_US&gl=US'}/>
                                         <Card header="Teamify" btn="Case Study" image={teamify} text="A web-based dashboard which serves as a centralized platform that enables team leaders, managers, and stakeholders to efficiently monitor, analyze, and optimize team performance, tasks, and collaboration in real-time" link={'https://www.behance.net/gallery/176343673/Teamify'}/>
