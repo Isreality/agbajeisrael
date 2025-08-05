@@ -4,6 +4,7 @@ import "./style.css"
 import "./fonts.css"
 import izzy2 from './img/izzy2.jpeg';
 import kazeem from './img/kazeem.jpg';
+import dnt from './img/dnt.jpg';
 import woman from './img/woman.png';
 import phone from './img/phone.png';
 import email from './img/email.png';
@@ -135,7 +136,7 @@ const Home = () => {
                         </div>  
 
                         <div className="grid justify-items-center"> 
-                            <Fade direction="right" triggerOnce="true"><img src={izzy2} alt="" className="rounded-lg h-full w-full object-cover"/></Fade> 
+                            <Fade direction="right" triggerOnce="true"><img src={dnt} alt="" className="rounded-lg h-full w-full object-cover"/></Fade> 
                         </div>  
                     </div>
 
